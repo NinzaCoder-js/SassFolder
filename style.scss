@@ -1,0 +1,243 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+@mixin boxcha($width,$height,$border-radius,$border,$bg-color,$box-shadow,$padding){
+  width: $width;
+  height: $height;
+  border-radius: $border-radius;
+  border: $border;
+  background-color: $bg-color;
+  box-shadow: $box-shadow;
+  padding: $padding;
+}
+
+
+.boxcha {
+  @include boxcha(219px, 313px,12px,5px solid #76899C,#3C415E,1px 1px 4px 2px rgba(0, 0, 0, 0.50),21px);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+@mixin box-mini($width,$height,$border-radius,$margin-bot)
+{
+
+  width: $width;
+  height: $height;
+  border-radius: $border-radius;
+  margin-bottom: $margin-bot
+
+}
+
+.box-mini {
+  @include box-mini (167px,184px,12px,11px);
+  background: linear-gradient(44deg, #00bd56 0%, #f9fd50 100%);
+}
+
+.box-mini1 {
+  @include box-mini (167px,184px,12px,11px);
+  background: linear-gradient(44deg, #26baee 0%, #9fe8fa 100%);
+}
+
+.box-mini2 {
+  @include box-mini (167px,184px,12px,11px);
+  background: linear-gradient(44deg, #8f71ff 0%, #8bffff 100%);
+}
+
+.box-mini3 {
+  @include box-mini (167px,184px,12px,11px);
+  background: linear-gradient(44deg, #c7004c 0%, #ffaaaa 100%);
+}
+
+.box-mini4 {
+  @include box-mini (167px,184px,12px,11px);
+  background: linear-gradient(44deg, #55968f 0%, #8acbbb 100%);
+}
+
+
+.box-mini0 {
+  @include box-mini (167px,184px,12px,11px);
+  background: linear-gradient(44deg, #226b80 0%, #35b0ab 100%);
+}
+
+.box-mini11 {
+  @include box-mini (167px,184px,12px,11px);
+  background: linear-gradient(44deg, #3d6cb9 0%, #00fff0 100%);
+}
+
+.box-mini21 {
+  @include box-mini (167px,184px,12px,11px);
+  background: linear-gradient(44deg, #4d3664 0%, #bab5f6 100%);
+}
+
+.box-mini31 {
+  @include box-mini (167px,184px,12px,11px);
+  background: linear-gradient(44deg, #fa4659 0%, #e9007f 100%);
+}
+
+.box-mini41 {
+  @include box-mini (167px,184px,12px,11px);
+  background: linear-gradient(44deg, #00b7c2 0%, #4ef037 100%);
+}
+
+
+
+@mixin curcle ($width,$height,$border-radius) {
+  width: $width;
+  height: $height;
+  border-radius: $border-radius;
+
+}
+
+.curcle1 {
+  @include curcle(30px,30px,15px);
+  background-color: #00bd56;
+
+  margin-bottom: 5px;
+}
+
+
+.curcle2 {
+  @include curcle(30px,30px,15px);
+  background-color: #f9fd50;
+}
+
+.curcle3 {
+  @include curcle(30px,30px,15px);
+  background-color: #26baee;
+  margin-bottom: 5px;
+}
+
+.curcle4 {
+  @include curcle(30px,30px,15px);
+  background-color: #9fe8fa;
+}
+
+
+.curcle5 {
+  @include curcle(30px,30px,15px);
+  background-color: #8f71ff;
+  margin-bottom: 5px;
+}
+
+.curcle6 {
+  @include curcle(30px,30px,15px);
+  background-color: #8bffff;
+}
+
+.curcle7 {
+  @include curcle(30px,30px,15px);
+  background-color: #c7004c;
+  margin-bottom: 5px;
+}
+
+.curcle8 {
+  @include curcle(30px,30px,15px);
+  background-color: #ffaaaa;
+}
+
+.curcle9 {
+  @include curcle(30px,30px,15px);
+  background-color: #55968f;
+  margin-bottom: 5px;
+}
+
+.curcle10 {
+  @include curcle(30px,30px,15px);
+  background-color: #8acbbb;
+}
+
+
+
+.curcle11 {
+  @include curcle(30px,30px,15px);
+  background-color: #226b80;
+
+  margin-bottom: 5px;
+}
+
+
+.curcle12 {
+  @include curcle(30px,30px,15px);
+  background-color: #35b0ab;
+}
+
+.curcle13 {
+  @include curcle(30px,30px,15px);
+  background-color: #3d6cb9;
+  margin-bottom: 5px;
+}
+
+.curcle14 {
+  @include curcle(30px,30px,15px);
+  background-color: #00fff0;
+}
+
+
+.curcle15 {
+  @include curcle(30px,30px,15px);
+  background-color: #4d3664;
+  margin-bottom: 5px;
+}
+
+.curcle16 {
+  @include curcle(30px,30px,15px);
+  background-color: #bab5f6;
+}
+
+.curcle17 {
+  @include curcle(30px,30px,15px);
+  background-color: #fa4659;
+  margin-bottom: 5px;
+}
+
+.curcle18 {
+  @include curcle(30px,30px,15px);
+  background-color: #e9007f;
+}
+
+.curcle19 {
+  @include curcle(30px,30px,15px);
+  background-color: #00b7c2;
+  margin-bottom: 5px;
+}
+
+.curcle20 {
+  @include curcle(30px,30px,15px);
+  background-color: #4ef037;
+}
+
+
+.box-fl{
+  display: flex;
+  gap: 34px;
+  align-items: center;
+}
+
+.box-fl p {
+  color: rgb(0, 153, 255);
+}
+
+.box {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.sign  {
+  background-color:antiquewhite;
+}

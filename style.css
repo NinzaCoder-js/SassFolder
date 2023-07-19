@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.boxcha {
+  width: 219px;
+  height: 313px;
+  border-radius: 12px;
+  border: 5px solid #76899C;
+  background-color: #3C415E;
+  box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.5);
+  padding: 21px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.box-mini {
+  width: 167px;
+  height: 184px;
+  border-radius: 12px;
+  margin-bottom: 11px;
+  background: linear-gradient(44deg, #00bd56 0%, #f9fd50 100%);
+}
+
+.box-mini1 {
+  width: 167px;
+  height: 184px;
+  border-radius: 12px;
+  margin-bottom: 11px;
+  background: linear-gradient(44deg, #26baee 0%, #9fe8fa 100%);
+}
+
+.box-mini2 {
+  width: 167px;
+  height: 184px;
+  border-radius: 12px;
+  margin-bottom: 11px;
+  background: linear-gradient(44deg, #8f71ff 0%, #8bffff 100%);
+}
+
+.box-mini3 {
+  width: 167px;
+  height: 184px;
+  border-radius: 12px;
+  margin-bottom: 11px;
+  background: linear-gradient(44deg, #c7004c 0%, #ffaaaa 100%);
+}
+
+.box-mini4 {
+  width: 167px;
+  height: 184px;
+  border-radius: 12px;
+  margin-bottom: 11px;
+  background: linear-gradient(44deg, #55968f 0%, #8acbbb 100%);
+}
+
+.box-mini0 {
+  width: 167px;
+  height: 184px;
+  border-radius: 12px;
+  margin-bottom: 11px;
+  background: linear-gradient(44deg, #226b80 0%, #35b0ab 100%);
+}
+
+.box-mini11 {
+  width: 167px;
+  height: 184px;
+  border-radius: 12px;
+  margin-bottom: 11px;
+  background: linear-gradient(44deg, #3d6cb9 0%, #00fff0 100%);
+}
+
+.box-mini21 {
+  width: 167px;
+  height: 184px;
+  border-radius: 12px;
+  margin-bottom: 11px;
+  background: linear-gradient(44deg, #4d3664 0%, #bab5f6 100%);
+}
+
+.box-mini31 {
+  width: 167px;
+  height: 184px;
+  border-radius: 12px;
+  margin-bottom: 11px;
+  background: linear-gradient(44deg, #fa4659 0%, #e9007f 100%);
+}
+
+.box-mini41 {
+  width: 167px;
+  height: 184px;
+  border-radius: 12px;
+  margin-bottom: 11px;
+  background: linear-gradient(44deg, #00b7c2 0%, #4ef037 100%);
+}
+
+.curcle1 {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #00bd56;
+  margin-bottom: 5px;
+}
+
+.curcle2 {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #f9fd50;
+}
+
+.curcle3 {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #26baee;
+  margin-bottom: 5px;
+}
+
+.curcle4 {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #9fe8fa;
+}
+
+.curcle5 {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #8f71ff;
+  margin-bottom: 5px;
+}
+
+.curcle6 {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #8bffff;
+}
+
+.curcle7 {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #c7004c;
+  margin-bottom: 5px;
+}
+
+.curcle8 {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #ffaaaa;
+}
+
+.curcle9 {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #55968f;
+  margin-bottom: 5px;
+}
+
+.curcle10 {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #8acbbb;
+}
+
+.curcle11 {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #226b80;
+  margin-bottom: 5px;
+}
+
+.curcle12 {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #35b0ab;
+}
+
+.curcle13 {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #3d6cb9;
+  margin-bottom: 5px;
+}
+
+.curcle14 {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #00fff0;
+}
+
+.curcle15 {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #4d3664;
+  margin-bottom: 5px;
+}
+
+.curcle16 {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #bab5f6;
+}
+
+.curcle17 {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #fa4659;
+  margin-bottom: 5px;
+}
+
+.curcle18 {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #e9007f;
+}
+
+.curcle19 {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #00b7c2;
+  margin-bottom: 5px;
+}
+
+.curcle20 {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #4ef037;
+}
+
+.box-fl {
+  display: flex;
+  gap: 34px;
+  align-items: center;
+}
+
+.box-fl p {
+  color: rgb(0, 153, 255);
+}
+
+.box {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign {
+  background-color: antiquewhite;
+}/*# sourceMappingURL=style.css.map */
